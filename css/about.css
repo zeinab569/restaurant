@@ -1,0 +1,54 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    background-image: url(../image/bg1.jpg);
+}
+
+.about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about_main .about_image img{
+    width: 500px;
+    position: relative;
+    border-radius: 30px;
+    top: 60px;
+}
+.about .about_main .about_text h1 span{
+    color: #800080	;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+.about .about_main .about_text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.about .about_main .about_text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.about .about_btn{
+    background: #800080	;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 50%;
+    margin-top: 40px;
+    
+}
+
+
